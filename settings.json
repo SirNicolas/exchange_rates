@@ -1,0 +1,22 @@
+{
+  "dbconfig": {
+    "db": "rates",
+    "host": "localhost",
+    "user": "user",
+    "password": "password",
+    "testdb": "test_rates"
+  },
+  "base_user": {
+    "name": "first",
+    "password": "firstuserpassword"
+  },
+  "currency_pairs": [
+    "tBTCUSD",
+    "tLTCUSD",
+    "tLTCBTC",
+    "tETHUSD",
+    "tETHBTC"
+  ],
+  "rate_url_format": "https://api-pub.bitfinex.com/v2/candles/trade:{}:{}",
+  "currency_url_format": "https://api-pub.bitfinex.com/v2/tickers?symbols={}"
+}
